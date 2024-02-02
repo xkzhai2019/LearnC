@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-	int a = 10,b=20,c=5;
-	printf("a:%f\n",a);
-	printf("b:%f\n",b);
+	int a = 1,b=2,c=5;
+	printf("a:%lf\n",a);
+	printf("b:%lf\n",b);
 	printf("c:%e\n",c);
+	return 0;
 }
