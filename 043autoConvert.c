@@ -9,6 +9,7 @@ int main(void){
     printf("f_i: %d, %f\n",f_i,f_i);
     printf("i: %d, %f\n",i,i);
     printf("i2: %d, %f\n",i2,i2);
+    printf("i2: %d, %lf\n",i2,1);
 
     return 0;
 }
