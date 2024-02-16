@@ -7,6 +7,7 @@ int main(void){
     scanf("%d",&a);
     //scanf("%s",name);
     scanf("%d",&b);
+    //printf("a=%d\n",a);
     scanf("%s",name);
     printf("a=%d,b=%d,name=%s\n",a,b,name);
     return 0;
