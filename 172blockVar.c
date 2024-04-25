@@ -4,9 +4,9 @@ int m = 13;
 int n = 10;
    
 void func1(){
-    int n = 20;
+    auto int n = 20;
     {
-        int n = 822;
+        auto int n = 822;
         printf("block1 n: %d\n", n);
     }
     printf("func1 n: %d\n", n);
