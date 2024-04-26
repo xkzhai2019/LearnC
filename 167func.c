@@ -1,6 +1,6 @@
 #include <stdio.h>
 // 计算阶乘，递归实现
-int factorial(int n){
+long long factorial(int n){
     /*
     if(n==0 || n==1 ){
         return 1;
@@ -11,6 +11,7 @@ int factorial(int n){
 int main(void){
   //  printf("2!=%d\n",factorial(2));
   //  printf("3!=%d\n",factorial(3));
-    printf("5!=%d\n",factorial(5));
+    printf("5!=%lld\n",factorial(5));
+    printf("100000000!=%lld\n",factorial(100000000));
     return 0;
 }
