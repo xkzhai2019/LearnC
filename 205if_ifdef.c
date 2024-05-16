@@ -1,9 +1,11 @@
 #include <stdio.h>
-#define NUM 10
+#define NUM1 30
+#define NUM2 40
 
 int main(void){
-    #if NUM == 10 || NUM == 20
-        printf("NUM: %d\n", NUM);
+    #if (defined NUM1 && defined NUM2)//
+    //#ifdef NUM1 && #ifdef NUM2
+        printf("NUM1: %d,NUM2:%d\n", NUM1,NUM2);
     #else
         printf("NUM Error\n");
     #endif
